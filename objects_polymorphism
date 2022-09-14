@@ -1,0 +1,16 @@
+
+class periphery():
+    def __init__(self,name,manufacturer="Wago", firmware_version="4"):
+        self.name=name
+        self.manufacturer=manufacturer
+        self.firmware_version=firmware_version
+
+#class IO_card(periphery):
+ #   def __init__(self, name, input_output,digital_analog,value,):
+  #      self.input_output = input_output
+   #     self.digital_analog = digital_analog
+    #    self.value = value
+        
+
+new_device=periphery("460","Siemens","5")
+print(new_device.manufacturer)
